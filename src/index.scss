@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat-Extralight");
+
+}
+body {
+  background: linear-gradient(215deg, #ff3867, #ffc873, #d37ec6);
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  background-color: rgb(255 255 255);
+  width: 450px;
+  height: 600px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px #888888, 2px 2px 6px #888888 inset;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top {
+  background-image: url(4180a-delorean-back-future-1024x675.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 30%;
+  border-bottom: solid 3px #2c1d9f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius:5px;
+}
+
+.photo {
+  background-image: url(Michael_J._Fox_as_Marty_McFly_in_Back_to_the_Future,_1985.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+  z-index: 1;
+  position: relative;
+  top: 50%;
+  border: solid #2c1d9f 3px;
+  box-shadow: 1px 1px 5px #888888;
+  margin: 0;
+  padding: 0;
+
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  margin-top: 80px;
+}
+
+h1 {
+ margin: 0;
+ padding: 0;
+ font-size: 30px;
+
+}
+
+p1 {
+font-style: italic;
+color:#d20bec
+}
+
+p2 {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+}
+
+#button {
+border: solid #2c1d9f 2px;
+border-radius: 8px;
+box-shadow: 1px 1px 3px black;
+padding: 8px;
+margin: 2px;
+background-color: #a2e2eb;
+font-family: "Montserrat";
+color: rgb(5, 11, 94);
+text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
+.footer {
+display: flex;
+flex-direction: row;
+height: 10%;
+border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+border-top: 1px solid black;
+justify-content: space-between;
+}
+
+
+
+
+/*Tamaño de la card: 450x600px aprox.
+Colores de fondo:  #ff3867 ,  #ffc873 ,  #d37ec6
+Otros colores:  #a05d5d ,  #2d7cbf ,  #888888
+Tamaño de avatar: 128x128px aprox.
+Tamaño de fotografía: 300x200px aprox.
+Tipografías: Poppins, Montserrat.*/
