@@ -95,6 +95,7 @@ background-color: #a2e2eb;
 font-family: "Montserrat";
 color: rgb(5, 11, 94);
 text-shadow: 2px 2px 4px rgb(255, 255, 255);
+margin-bottom: 4px;
 }
 
 .footer {
@@ -103,11 +104,15 @@ flex-direction: row;
 height: 10%;
 border-bottom-left-radius: 6px;
 border-bottom-right-radius: 6px;
-border-top: 1px solid black;
-justify-content: space-between;
+border-top: 1px solid rgb(218, 212, 212);
+gap: 50px;
+margin-bottom: 5px;
 }
 
-
+h4 {
+  margin: 1px;
+  padding: 2px;
+}
 
 
 /*Tamaño de la card: 450x600px aprox.
